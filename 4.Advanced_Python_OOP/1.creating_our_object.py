@@ -17,12 +17,12 @@ class PlayerCharacter:
     # player1 then is the 'self' (because player1 = PlayerCharacter)
     # When the class is instanciated, it calls the constructor first
     # It checks who is self, and what self needs as a parameter of the function so this function can run
-    def __init__(self, name, age):
+    def __init__(self, name='anonymous', age=0):
         
         # Both usage may work
         # if (PlayerCharacter.membership): 
         # if (self.membership):
-        if (self.membership):
+        if (age > 18):
 
         # Attribute is something dynamic. 
         # This means when a class is instanciated, the attribute will be unique 
